@@ -1,0 +1,10 @@
+#header{
+    background-image: url(..//assets/abstractKeyboard.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+    min-height: 500px;
+    color: white;
+}

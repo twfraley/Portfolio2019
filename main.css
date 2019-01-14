@@ -1,8 +1,8 @@
-@import "header.css";
-@import "navbar.css";
-@import "body.css";
-@import "about.css";
-@import "project.css";
-@import "contact.css";
-@import "footer.css";
-@import "variables.css";
+@import "./CSS/header.css";
+@import "./CSS/navbar.css";
+@import "./CSS/body.css";
+@import "./CSS/about.css";
+@import "./CSS/project.css";
+@import "./CSS/contact.css";
+@import "./CSS/footer.css";
+@import "./CSS/variables.css";
