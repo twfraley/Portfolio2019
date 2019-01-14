@@ -1,0 +1,30 @@
+.jumbotron{
+    padding: 0;
+    padding-top: 5rem;
+}
+#headertriangles{
+    width: 100vw;
+    border: 2px solid red;
+    margin-top: 4.5rem;
+    position:relative;
+}
+#headertriangle1{
+    width: 0;
+    height: 0;
+    border-bottom: 20vh solid whitesmoke;
+    border-right: 100vw solid transparent;
+    position: relative;
+}
+#headertriangle2{
+    width:0;
+    height:0;
+    border-bottom: 20vh solid red;
+    border-left: 50vw solid transparent;
+    float:right;
+
+}
+#belowHeaderTrianglesSpace{
+    width: 100vw;
+    height: 1rem;
+    background-color: whitesmoke
+}
