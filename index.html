@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thomas Fraley</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -50,25 +50,27 @@
 
     <!--Specifications-->
     <section class = "container lead" id="Specifications">
-        <h1 class="" style="text-align: center;">Things I Can Do</h1>
-        <ul class="">
+        <h1 class="m-5 p-2" style="text-align: center;">Things I Can Do</h1>
+        <div>
+            <ul class="m-3 p-2">
             <li class="">Everything</li>
             <li class="">Very Little</li>
-        </ul>
+            </ul>
+        </div>
     </section>
 
     <!--Portfolio-->
-    <section class = "container">
-        <h1 class="" style="text-align: center;">Previous Work</h1>
-        <div class="row" style="margin-left: auto; margin-right:auto; text-align:center;">
+    <section class = "container lead" style = "border: 1px solid red;">
+        <h1 class="p-2" style="text-align: center;">Projects</h1>
+        <div class="row p-5" style="margin-left: auto; margin-right:auto; text-align:center;">
             <div class="lead col-md-6"><a href = "https://codepen.io/twfraley/pen/ZVRbvw"><img src="assets/CSSCreature.png" class ="img-fluid"></a></div>
             <div class="col-md-6 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/275669394" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-            </div>
+        </div>
     </section>
 
     <!--contact-->
-    <section id="contact">
-        <div class="container">
+    <section class="jumbotron" id="contact-background">
+        <div class="container col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 p-3 border border-light rounded" style="background-color:rgba(0,0,0,0.6);">
             <h2 class="text-center text-uppercase">Contact Me</h2>
             <div class="row">
                 <div class="col-12">
@@ -99,8 +101,8 @@
                         </div>
                         <div class="text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-lg btn-black">
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            <button type="submit" class="btn btn-lg btn-outline-light">
+                                <!--- <i class="fa fa-paper-plane-o" aria-hidden="true"></i> -->
                                 Send Message
                             </button>
                         </div>

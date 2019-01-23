@@ -6,3 +6,24 @@
 @import "./CSS/contact.css";
 @import "./CSS/footer.css";
 @import "./CSS/variables.css";
+#header{
+    background-image: url(./assets/abstractKeyboard.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60vh;
+    min-height: 350px;
+    color: white;
+    padding-top: 18vh;
+}
+#contact-background{
+    background-image: url(./assets/abstractKeyboard.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    color: white;
+    padding-top: 18vh;
+}
