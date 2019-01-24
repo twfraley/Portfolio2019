@@ -39,3 +39,9 @@
     color: white;
     padding-top: 18vh;
 }
+.card a{
+    color:lightblue;
+}
+.card a:visited{
+    color: lightcyan;
+}
