@@ -8,13 +8,9 @@
     <title>Thomas Fraley</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
-
-<!--- TO DO:
-        Add internal links from navigation
-        Add transparent div for background of contact
-        Add box around contact form and add style to it-->
         
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -26,51 +22,81 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#Specifications">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <div id="background">
+
     <!--header-->
-    <div class="jumbotron" id="header">
+    <div class="container jumbotron justify-content-center" id="header">
+        <div class="row">
+        <div class="col-md-2"></div>
+        <div id="titlecard" class="col-md-8 p-5">
         <h1 class="display-4 text-center">Thomas Fraley</h1>
         <p class="lead text-center">Junior Web Developer</p>
         <hr class="my-4">
         <div class="text-center">
             <a class="btn btn-primary btn-lg btn-dark" href="#project" role="button">View My Work</a>
         </div>
+        <div class="col-md-2"></div>
+        </div>
+    </div>
     </div>
 
+    <!---About Me-->
+    <section class = "container lead blackbackground rounded-top border-top border-right border-left border-white" id="aboutme">
+        <div class="row"><div class ="col-md-2"></div>
+        <div class="col-md-8">
+            <h1 class="p-5"style ="text-align:center;">About Me</h1>
+        </div>
+        </div><div class="col-md-2"></div>
+        <div>
+            Stuff about me.  So sincere and thoughtful and convincing.
+        </div>
+    </section>
+
     <!--Specifications-->
-    <section class = "container lead" id="Specifications">
-        <h1 class="m-5 p-2" style="text-align: center;">Things I Can Do</h1>
+    <section class = "container lead blackbackground border-right border-left border-white" id="Specifications">
+        <div class ="row"><div class = "col-md-2"></div>
+        <div class ="col-md-8">
+        <h1 class="p-5" style="text-align: center;">Things I Can Do</h1>
+        </div>
+        <div class="col-md-2"></div>
         <div>
             <ul class="m-3 p-2">
             <li class="">Everything</li>
             <li class="">Very Little</li>
             </ul>
         </div>
+        </div>
     </section>
 
     <!--Portfolio-->
-    <section class = "container lead" style = "border: 1px solid red;">
+    <section id = "projects" class = "container lead blackbackground rounded-bottom border-left border-right border-bottom border-white">
+        <div class ="row p-4">
+        <div class = "col-md-12">
         <h1 class="p-2" style="text-align: center;">Projects</h1>
-        <div class="row p-5" style="margin-left: auto; margin-right:auto; text-align:center;">
-            <div class="lead col-md-6"><a href = "https://codepen.io/twfraley/pen/ZVRbvw"><img src="assets/CSSCreature.png" class ="img-fluid"></a></div>
-            <div class="col-md-6 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/275669394" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+        <div class="row">
+            <div class="lead col-md-4"><a href = "https://codepen.io/twfraley/pen/ZVRbvw" target = "blank"><img src="assets/CSSCreature.png" class ="img-fluid"></a></div>
+            <div class="col-md-4 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/275669394" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <div class="lead col-md-4"> <a href="https://github.com/twfraley/GoldBadgeChallenges2019" target ="blank"><img src="./assets/GoldBageChallenges.png" class = "img-fluid"></a></div>
+        </div>
+        </div>
         </div>
     </section>
 
     <!--contact-->
     <section class="jumbotron" id="contact-background">
-        <div class="container col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 p-3 border border-light rounded" style="background-color:rgba(0,0,0,0.6);">
+        <div class="container col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 p-3 border border-light rounded blackbackground">
             <h2 class="text-center text-uppercase">Contact Me</h2>
             <div class="row">
                 <div class="col-12">
@@ -102,7 +128,7 @@
                         <div class="text-center">
                             <div id="success"></div>
                             <button type="submit" class="btn btn-lg btn-outline-light">
-                                <!--- <i class="fa fa-paper-plane-o" aria-hidden="true"></i> -->
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 Send Message
                             </button>
                         </div>
@@ -112,6 +138,7 @@
         </div>
     </section>
 
+    </div>
 
     <!--Bootstrap script files-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
