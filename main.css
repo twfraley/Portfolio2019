@@ -13,11 +13,6 @@
     background-size: cover;
 }
 #header{
-/*     background-image: url(./assets/abstractKeyboard.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: transparent;
     height:80vh;
     min-height: 350px;
@@ -29,11 +24,6 @@
     width: 50em;
 }
 #contact-background{
-/*     background-image: url(./assets/abstractKeyboard.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: transparent;
     min-height: 350px;
     color: white;
