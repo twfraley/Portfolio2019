@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thomas Fraley</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 
 <body>
+
+    <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Navbar Link</a>
+        <a class="navbar-brand" href="#">Thomas Fraley</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +27,7 @@
                     <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Specifications">About</a>
+                    <a class="nav-link" href="#Specifications">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
@@ -36,11 +38,10 @@
 
     <div id="background">
 
-        <!--header-->
+        <!--jumbotron-->
         <div class="container jumbotron justify-content-center" id="header">
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div id="titlecard " class="col-md-8 p-5">
+            <div class="row justify-content-center">
+                <div id="titlecard " class="col-md-8">
                     <h1 class="display-4 text-center outline-text">Thomas Fraley</h1>
                     <p class="lead text-center">[Future] Web Developer</p>
                     <hr class="my-4">
@@ -49,13 +50,13 @@
                             role="button">View
                             My Work</a>
                     </div>
-                    <div class="col-md-2"></div>
                 </div>
             </div>
         </div>
 
         <!---About Me-->
-        <section class="container lead blackbackground rounded-top border-top border-right border-left border-white" id="aboutme">
+        <section class="container lead blackbackground rounded-top border-top border-right border-left border-white"
+            id="aboutme">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
@@ -64,14 +65,20 @@
             </div>
             <div class="col-md-2"></div>
             <div>
-                My name is Thomas Fraley, and I'm a [future] web developer currently taking classes at Eleven Fifty
-                Academy in Fishers, Indiana. Before taking up web development, I spent years working as a first
-                assistant cameraman and drone operator on larger television and web commercials. My credits include
-                working for large international companies (such as Pepsi and Verizon) to local businesses (such as
-                Community Health Nework and St Vincent hospitals.)
+                I am a web developer looking for work in Indy. I have some experience with C#, .NET Framework, Entity
+                Framework, .WebMVC, .WebAPI, Angular, HTML, and CSS. I am an enthusiastic problem solver who has enjoyed
+                and excelled in my projects and classes at Eleven Fifty Academy, and am excited to bring my skills to
+                the broader workforce in Indianapolis.
+                <br>
+                <br>
+                Before transitioning to web development, I spent several years working as a full-time freelance 1st AC /
+                focus puller for commercials and corporate shoots. Clients I have pulled focus for include Google,
+                Gatorade, ESPN, Toyota, Thor Industries, Makers Mark, Microsoft, Rickers, and many others. I have also
+                held the camera for numerous national commercial and corporate clients, and also filmed and edited the
+                award-winning documentary "The Falconer: Sport of Kings" (winner, best overall, Skyfest 2013).
             </div>
         </section>
- 
+
         <!--Specifications-->
         <section class="container lead blackbackground border-right border-left border-white" id="Specifications">
             <div class="row">
@@ -82,17 +89,18 @@
             <div class="row">
                 <div class="card-group col-md-12 no-gutters">
                     <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
-                            src="./assets/CSharpLogoOutlined.png">Hopefully Everything</div>
+                            src="./assets/CSharpLogoOutlined.png"></div>
                     <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
-                            src="./assets/HTMLLogoOutlined.png">Some</div>
+                            src="./assets/HTMLLogoOutlined.png"></div>
                     <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
-                            src="./assets/CSSLogoOutlined.png">Bootstrap</div>
+                            src="./assets/CSSLogoOutlined.png"></div>
                 </div>
             </div>
         </section>
 
         <!--Portfolio-->
-        <section id="projects" class="container lead blackbackground rounded-bottom border-left border-right border-bottom border-white">
+        <section id="projects"
+            class="container lead blackbackground rounded-bottom border-left border-right border-bottom border-white">
             <div class="row p-2">
                 <div class="">
                     <h1 class="p-2 outline-text" style="text-align: center;">Projects</h1>
@@ -109,19 +117,22 @@
                         </div>
                         <div class="col-md-4">
                             <div class="lead card blackbackground p-3 m-1 text-white border border-light">
-                                <div class="card-title text-center"><a href="https://vimeo.com/275669394" target="blank">Drone
+                                <div class="card-title text-center"><a href="https://vimeo.com/275669394"
+                                        target="blank">Drone
                                         Video Reel</a></div>
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item card-img-top" src="https://player.vimeo.com/video/275669394"
-                                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item card-img-top"
+                                        src="https://player.vimeo.com/video/275669394" webkitallowfullscreen
+                                        mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                                 <div class="card-text"> Demo reel of my professional aerial videography</div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="lead card blackbackground p-3 m-1 text-white border border-light">
-                                <div class="card-title text-center"><a href="https://github.com/twfraley/GoldBadgeChallenges2019"
-                                        target="blank">Class Challenges</a></div>
+                                <div class="card-title text-center"><a
+                                        href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">Class
+                                        Challenges</a></div>
                                 <a href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">
                                     <img src="./assets/GoldBageChallenges.png" class="img-fluid card-img-top">
                                 </a>
@@ -137,7 +148,8 @@
 
         <!--contact-->
         <section class="jumbotron" id="contact-background">
-            <div class="container col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 p-3 border border-light rounded blackbackground">
+            <div
+                class="container col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 p-3 border border-light rounded blackbackground">
                 <h2 class="text-center text-uppercase outline-text">Contact Me</h2>
                 <div class="row">
                     <div class="col-12">
@@ -155,14 +167,16 @@
                                 <div class="form-group">
                                     <label>Email Address</label>
                                     <input type="email" class="form-control" placeholder="Your Email" id="email"
-                                        required data-validation-required-message="Please enter your email" name="_replyto">
+                                        required data-validation-required-message="Please enter your email"
+                                        name="_replyto">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <div class="form-group">
                                     <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
-                                        required data-validation-required-message="Please leave a message" name="message"></textarea>
+                                        required data-validation-required-message="Please leave a message"
+                                        name="message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -182,12 +196,15 @@
     </div>
 
     <!--Bootstrap script files-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
