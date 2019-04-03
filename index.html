@@ -39,11 +39,11 @@
     <div id="background">
 
         <!--jumbotron-->
-        <div class="container jumbotron justify-content-center" id="header">
+        <div class="container justify-content-center mb-5 pb-5" id="header">
             <div class="row justify-content-center">
                 <div id="titlecard " class="col-md-8">
                     <h1 class="display-4 text-center outline-text">Thomas Fraley</h1>
-                    <p class="lead text-center">[Future] Web Developer</p>
+                    <p class="lead text-center">Web Developer</p>
                     <hr class="my-4">
                     <div class="text-center">
                         <a class="btn btn-primary btn-lg btn-dark border border-light blackbackground" href="#projects"
@@ -83,16 +83,21 @@
         <section class="container lead blackbackground border-right border-left border-white" id="Specifications">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="pt-5 outline-text" style="text-align: center;">Things I Can Do</h1>
+                    <h1 class="pt-5 outline-text" style="text-align: center;">Skills:</h1>
                 </div>
             </div>
+
             <div class="row">
-                <div class="card-group col-md-12 no-gutters">
-                    <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
+                <div class="card-group col-md-12 no-gutters justify-content-center">
+                    <div class="card col-md-2 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
                             src="./assets/CSharpLogoOutlined.png"></div>
-                    <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
+                    <div class="card col-md-2 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
+                            src="./assets/DotNetLogo.png"></div>
+                    <div class="card col-md-2 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
+                            src="./assets/AngularLogo.png"></div>
+                    <div class="card col-md-2 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
                             src="./assets/HTMLLogoOutlined.png"></div>
-                    <div class="card col-md-4 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
+                    <div class="card col-md-2 m-1 p-2 blackbackground text-center"><img class="img-fluid card-img-top"
                             src="./assets/CSSLogoOutlined.png"></div>
                 </div>
             </div>
@@ -105,16 +110,51 @@
                 <div class="">
                     <h1 class="p-2 outline-text" style="text-align: center;">Projects</h1>
                     <div class="card-group no-gutters">
+
                         <div class="col-md-4">
                             <div class="lead card p-3 m-1 blackbackground text-white border border-light">
-                                <div class="card-title text-center"><a href="https://codepen.io/twfraley/pen/ZVRbvw"
-                                        target="blank">CSS Creature</a></div>
-                                <a href="https://codepen.io/twfraley/pen/ZVRbvw" target="blank">
-                                    <img src="assets/CSSCreature.png" class="img-fluid card-img-top">
+                                <div class="card-title text-center lead"><a
+                                        href="https://winterclient.herokuapp.com/home" target="blank">Westeros Fantasy
+                                        League</a></div>
+                                <a href="https://winterclient.herokuapp.com/home" target="blank">
+                                    <img src="./assets/WesterosFantasyLeague.PNG" class="img-fluid card-img-top">
                                 </a>
-                                <div class="card-text">Creature drawing programmed entirely via CSS</div>
+                                <div class="card-text">Westeros Fantasy League is an Angular 7 / .NET webAPI app created
+                                    for a group project at Eleven Fifty Academy. It is a way to play a form of “fantasy
+                                    football” with your favorite Game of Thrones characters. Every week, your “team” of
+                                    characters earn points for surviving the episode, appearing in the episode,
+                                    important plot exposition, etc.</div>
                             </div>
                         </div>
+
+                        <div class="col-md-4">
+                            <div class="lead card p-3 m-1 blackbackground text-white border border-light">
+                                <div class="card-title text-center"><a
+                                        href="https://basicfantasybeyond.azurewebsites.net/" target="blank">Basic
+                                        Fantasy Beyond</a></div>
+                                <a href="https://basicfantasybeyond.azurewebsites.net/" target="blank">
+                                    <img src="./assets/BasicFantasyBeyond.PNG" class="img-fluid card-img-top">
+                                </a>
+                                <div class="card-text">Basic Fantasy Beyond is an online character sheet WebMVC
+                                    application for use with the tabletop RPG "Basic Fantasy". It is a student project
+                                    for Eleven Fifty Academy.</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="lead card blackbackground p-3 m-1 text-white border border-light">
+                                <div class="card-title text-center"><a
+                                        href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">C#
+                                        Challenges</a></div>
+                                <a href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">
+                                    <img src="./assets/GoldBageChallenges.png" class="img-fluid card-img-top">
+                                </a>
+                                <div class="card-text">Series of challenges delivered on week 3 of the .NET program at
+                                    Eleven
+                                    Fifty Academy</div>
+                            </div>
+                        </div>
+
                         <div class="col-md-4">
                             <div class="lead card blackbackground p-3 m-1 text-white border border-light">
                                 <div class="card-title text-center"><a href="https://vimeo.com/275669394"
@@ -125,22 +165,24 @@
                                         src="https://player.vimeo.com/video/275669394" webkitallowfullscreen
                                         mozallowfullscreen allowfullscreen></iframe>
                                 </div>
-                                <div class="card-text"> Demo reel of my professional aerial videography</div>
+                                <div class="card-text"> As a licensed commercial drone pilot, I have flown for many tv,
+                                    video, and web projects. In 2018, I flew on both coasts, all over the midwest, and
+                                    plenty right here in Indianapolis. Clients ranged from RV manufacturers and
+                                    distillers to hospitals and universities.</div>
                             </div>
                         </div>
+
                         <div class="col-md-4">
-                            <div class="lead card blackbackground p-3 m-1 text-white border border-light">
-                                <div class="card-title text-center"><a
-                                        href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">Class
-                                        Challenges</a></div>
-                                <a href="https://github.com/twfraley/GoldBadgeChallenges2019" target="blank">
-                                    <img src="./assets/GoldBageChallenges.png" class="img-fluid card-img-top">
+                            <div class="lead card p-3 m-1 blackbackground text-white border border-light">
+                                <div class="card-title text-center"><a href="https://codepen.io/twfraley/pen/ZVRbvw"
+                                        target="blank">CSS Creature</a></div>
+                                <a href="https://codepen.io/twfraley/pen/ZVRbvw" target="blank">
+                                    <img src="assets/CSSCreature.png" class="img-fluid card-img-top">
                                 </a>
-                                <div class="card-text">Series of challenges delivered on week 3 of the .NET program at
-                                    Eleven
-                                    Fifty Academy</div>
+                                <div class="card-text">Creature drawing programmed entirely via CSS</div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -161,8 +203,8 @@
                                         data-validation-required-message="Please enter your name" name="name">
                                     <p class="help-block text-danger"></p>
                                 </div>
-
                             </div>
+
                             <div class="control-group">
                                 <div class="form-group">
                                     <label>Email Address</label>
@@ -172,6 +214,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+
                             <div class="control-group">
                                 <div class="form-group">
                                     <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
@@ -180,6 +223,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+
                             <div class="text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-lg btn-outline-light">
@@ -187,7 +231,9 @@
                                     Send Message
                                 </button>
                             </div>
+
                         </form>
+
                     </div>
                 </div>
             </div>
